@@ -11,6 +11,9 @@ and is fully unit-tested (including a numerical gradient check). It trains on MN
 reaches about **98% test accuracy**. Rendering is done with
 [macroquad](https://macroquad.rs).
 
+## Screenshot
+![Screenshot](screenshot.png)
+
 ## Architecture
 
 ```
