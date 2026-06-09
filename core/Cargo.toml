@@ -1,0 +1,11 @@
+[package]
+name = "cnn_core"
+version = "0.1.0"
+edition = "2021"
+description = "From-scratch CNN: conv/pool/dense, backprop, MNIST training"
+
+[lib]
+path = "src/lib.rs"
+
+[dependencies]
+flate2 = "1"

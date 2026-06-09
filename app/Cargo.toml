@@ -1,0 +1,12 @@
+[package]
+name = "cnn-viz"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "cnn-viz"
+path = "src/main.rs"
+
+[dependencies]
+cnn_core = { path = "../core" }
+macroquad = "0.4"
